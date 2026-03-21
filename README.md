@@ -5,18 +5,18 @@ This project demonstrates basic programming concepts such as loops, conditionals
 
 ---
 
-🚀 Features
+# 🚀 Features
 
-➕ Addition 
-➖ Subtraction 
-✖️ Multiplication 
-➗ Division (with zero-check) 
-🔢 Exponentiation 
-√ Square Root 
-％ Modulo 
-📜 Operation History 
-🧹 Clear History 
-🔁 Continuous usage with menu system 
+➕ Addition  
+➖ Subtraction  
+✖️ Multiplication  
+➗ Division (with zero-check)  
+🔢 Exponentiation  
+√ Square Root  
+％ Modulo  
+📜 Operation History  
+🧹 Clear History  
+🔁 Continuous usage with menu system
 
 ---
 
