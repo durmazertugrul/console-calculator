@@ -10,12 +10,20 @@ namespace calculator
     {
         public string Operation {  get; set; }
         public double FirstNumber {  get; set; }
-        public double SecondNumber {  get; set; }
+        public double? SecondNumber {  get; set; } // nullable
         public double Result {  get; set; }
 
         public override string ToString()
         {
-            return $"{FirstNumber}{Operation}{SecondNumber} = {Result}";
+            if (Operation == "√") 
+            {
+               return $"√{FirstNumber} = {Result}"; // To avoid showing a second number in history for single-number operations
+            }
+            else 
+            {
+                return $"{FirstNumber}{Operation}{SecondNumber} = {Result}";
+            }
+                
         }
 
 
